@@ -22,6 +22,16 @@ Verzeichnisse können erst gepuscht werden, wenn sie nicht leer sind. Ansonsten 
 ### Adden von Dateien
 * git add . --> wirkt nur auf das aktuelle Verzeichnis (und Unterordner?)
 
+### Dateien umbenennen
+* Umbenennungen müssen nicht explizit mit "git mv" ausgeführt werden.
+* Beispiel:
+** "git mv index.html start.html" ist identisch mit:
+** "mv index.html start.html"
+   "git add start.html"
+   "git rm index.html"
+* Siehe: https://www.ralfebert.de/git/rename/
+
+
 ## GitHub
 
 ### Verwendung von ssh
