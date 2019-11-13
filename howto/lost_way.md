@@ -20,7 +20,7 @@ Siehe auch: https://stackify.com/git-checkout-remote-branch/
 Verzeichnisse können erst gepuscht werden, wenn sie nicht leer sind. Ansonsten bleiben sie im lokalen Repository.
 
 ### Adden von Dateien
-* git add . --> wirkt nur auf das aktuelle Verzeichnis (und Unterordner?)
+* git add . --> wirkt nicht auf das übergeordnete Verzeichnis (aber auf das untergeordnete)
 
 ### Dateien umbenennen
 * Umbenennungen müssen nicht explizit mit "git mv" ausgeführt werden.
