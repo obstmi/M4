@@ -1,3 +1,15 @@
-/*.article-card {
-	width: 300px;
-}*/
+.article-card {
+  margin: 10px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  border-radius: 0px;
+  border-style: none;
+}
+
+.card-img-top {
+  border-radius: 0px;
+  border-style: none;
+}
