@@ -1,32 +1,54 @@
-
-
-
-
 .row>div>div {
   /* margin: 20px; */
   border-radius: 10px;
   /*background-color: grey;*/
 }
 
+/* Kontakt */
+.contact-us {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+}
+
+
+
+.checkbox {
+  text-align: left;
+}
+
+/* Karte */
+
+
+.map {
+  /*
+	background: green;
+	
+	border-color: black;	
+  border-style: solid;
+  border-width: thin;*/
+} 
 
 .map-container-google-1 {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  /*padding-bottom: 56.25%;*/
+  padding: 10px;
   position: relative;
   height: 0;
+
+
 }
 
 .map-container-google-1 iframe {
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
+  /*
+  height: 90%;
+  width: 90%; */
   position: absolute;
 }
 
-.checkbox {
-  text-align: left;
-}
 
 
 /* box16 Team */
@@ -34,7 +56,7 @@
 
   border-radius: 100px;
   border-style: solid;
-  border-width: medium;
+  border-width: thin;
 
 }
 
