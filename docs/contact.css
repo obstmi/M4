@@ -18,6 +18,14 @@
   text-align: left;
 }
 
+span.Danke {
+  color:transparent;
+}
+
+.checkbox:checked  .Danke{
+	color:red;
+}
+
 /* Karte */
 
 
@@ -43,9 +51,10 @@
 .map-container-google-1 iframe {
   left: 0;
   top: 0;
-  
+  /*
   height: 90%;
   width: 90%; 
+  */
   position: absolute;
 }
 
@@ -109,6 +118,7 @@
 }
 
 .box16:hover {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
 }
