@@ -39,6 +39,16 @@ Verzeichnisse können erst gepuscht werden, wenn sie nicht leer sind. Ansonsten 
 Für die nachträgeliche Korrektur siehe:
 https://help.github.com/en/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh 
 
+
 ## MD
 Markdown ist eine vereinfachte Auszeichnungssprache. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
 * Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+
+## Seltsame Fehler beim Validieren des HTML im W3C Markup Validator
+
+Wenn ihr bei der Validierung im W3C Markup Validator Fehlermeldungen erhalten, die ihr überhaupt nicht versteht, dann kann das daran liegen, dass
+versehentlich der Unicode Character 'ZERO WIDTH SPACE' (U+200B) im HTML enthalten ist. Diesen sieht man nicht und es stört auch den Browser nicht
+aber der Validator kommt damit nicht klar.
+
+Zum Suchen / Entfernen kann man im Sublime Text mit der Suche nach Regular Expressions (Symbol links oben in der Suche: `.*` einschalten) diese Zeichen finden und durch "" (nichts) ersetzen. Die Regular Expression dafür ist `\x{200b}`.
