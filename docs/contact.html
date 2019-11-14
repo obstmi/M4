@@ -8,120 +8,87 @@
   <link rel="stylesheet" href="contact.css">
 </head>
 ​
-<header>
-</header>
-<!-- Container anlegen 2*2-->
-<div class="container-fluid">
-  <h1>Alles über uns</h1>
-  <!--
+
+<body>
+  <header>
+  </header>
+  <!-- Container anlegen 2*2-->
+  <div class="container-fluid">
+    <h1>Alles über uns</h1>
+    <!--
   <p>Move the mouse over the text below:</p>
   <div class="tooltip">Das ist das Bild
     <span class="tooltiptext">Tooltip text</span>
   </div>
 -->
-  <div class="row">
-    <!--  Kontaktformular -->
-    <div class="col-lg-8 col-sm-6">
-      <section class="contact-us">
-        <h3 class="pb-3">Kontaktiere uns!!</h3>
-        <form action="https://formspree.io/anelisynagano@gmail.com" method="POST" class="text-center">
-          <input name="name" type="text" class="form-control mb-4" placeholder="Vorname,Name">
-          <input name="_replyto" type="email" class="form-control mb-4" placeholder="EMail">
-          <!-- Checkboxen -->
-          <div class="checkbox">
-            <label><input type="checkbox" value="">Zustimmung zu allem was wichtig ist</label>
+    <div class="row">
+      <!--  Kontaktformular -->
+      <div class="col-lg-8 col-sm-6">
+        <section class="contact-us">
+          <h3 class="pb-3">Kontaktiere uns!!</h3>
+          <form action="https://formspree.io/anelisynagano@gmail.com" method="POST" class="text-center">
+            <input name="name" type="text" class="form-control mb-4" placeholder="Vorname,Name">
+            <input name="_replyto" type="email" class="form-control mb-4" placeholder="EMail">
+            <!-- Checkboxen -->
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Zustimmung zu allem was wichtig ist</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Ich finde Euch toll</label>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control rounded-0" rows="3" placeholder="Deine Nachricht oder Dein Tipp für uns"></textarea>
+            </div>
+            <button class="btn btn-info btn-block" type="submit" value="Send">... und jetzt abschicken</button>
+            <br>
+          </form>
+        </section>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <!--  Finde Uns -->
+        <section class="map">
+          <h3 class="pb-3">Finde Berlin</h3>
+          <div id="map-container-google-1" class="z-depth-1-half map-container-6" style="height: 400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155422.3341076586!2d13.28430735430249!3d52.50676099654669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1573640333050!5m2!1sde!2sde" width="600" height="350" frameborder="0" style="border:1;" allowfullscreen=""></iframe>
           </div>
-          <div class="checkbox">
-            <label><input type="checkbox" value="">Ich finde Euch toll</label>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control rounded-0" rows="3" placeholder="Deine Nachricht oder Dein Tipp für uns"></textarea>
-          </div>
-          <button class="btn btn-info btn-block" type="submit" value="Send">... und jetzt abschicken</button>
-        </form>
-      </section>
+        </section>
+      </div>
     </div>
-    <div class="col-lg-4 col-sm-6">
-      <!--  Finde Uns -->
-      <section class="map">
-        <h3 class="pb-3">Finde Berlin</h3>
-        <div id="map-container-google-1" class="z-depth-1-half map-container-6" style="height: 400px">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155422.3341076586!2d13.28430735430249!3d52.50676099654669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1573640333050!5m2!1sde!2sde" width="600" height="250" frameborder="0" style="border:1;" allowfullscreen=""></iframe>
+    <section>
+      <h3 class="text-left">Unser Team M4</h3><br>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="box16">
+            <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
+            <span class="tooltiptext">Metje Ruberg</span>
+          </div>
         </div>
-      </section>
-    </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box16">
+            <img class="TeamPic" src="pictures/metje.jpg" alt="Michael Berger" width="150" height="150">
+            <span class="tooltiptext">Michael Berger</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box16">
+            <img class="TeamPic" src="pictures/avatar_mib_640x527.png" alt="Michael Blisner" width="150" height="150">
+            <span class="tooltiptext">Michael Blisner</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box16">
+            <img class="TeamPic" src="pictures/obstmi.png" alt="Michael Obst" width="150" height="150">
+            <span class="tooltiptext">Michael Obst</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-  <!--
-    <div class="row">
-       <div class="col-lg-3 col-sm-3">
-       
-        <div>
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-3">
-        <div>
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-3">
-        <div>
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-3">
-        <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-      </div>
-    </div>
--->
-  <section>
-    <h3 class="text-left">Unser Team M4</h3><br>
-    <div class="row">
-      
-      <div class="col-lg-3 col-sm-6">
-        <div class="box16">
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-          <span class="tooltiptext">Tooltip text</span>
-          <!--
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-          <div class="box-content">
-            <h3 class="title">Metje</h3>
-          </div>
-        -->
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="box16">
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-          <div class="box-content">
-            <h3 class="title">Michael1</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="box16">
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-          <div class="box-content">
-            <h3 class="title">Michael2</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="box16">
-          <img class="TeamPic" src="pictures/metje.jpg" alt="Metje" width="150" height="150">
-          <div class="box-content">
-            <h3 class="title">Michael3</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-<footer>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <footer>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 ​
 
