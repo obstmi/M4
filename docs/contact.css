@@ -18,11 +18,11 @@
   text-align: left;
 }
 
-span.Danke {
+span.danke {
   color:transparent;
 }
 
-.checkbox:checked  .Danke{
+input:checked  + .danke{
 	color:red;
 }
 
