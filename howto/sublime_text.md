@@ -50,3 +50,18 @@ Anschließen kann man mit `<Ctrl><Shift>H` den Code formatieren.
 
 Das ist folgendes Plugin: [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
 
+
+## Einstellungen zur Einrückung des Codes
+
+Die folgenden Einstellungen im Menü sorgen dafür, dass Sublime Text den Code mit 2 Leerzeichen einrückt:
+
+```
+View/Indentation/Indent Using Spaces
+View/Indentation/Tab Width: 2
+```
+
+Anschliendend bei den Dateien, die noch eine andere Einrückung haben:
+
+```
+View/Indentation/Convert Indentation to Spaces
+```
