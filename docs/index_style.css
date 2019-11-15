@@ -1,6 +1,7 @@
 .carousel h2 {
   text-align: center;
   font-size: calc(22px + 1vw);
+  margin: 0px 0 0px 0;
 }
 
 .jumbotron h2 {
