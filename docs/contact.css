@@ -19,11 +19,60 @@
 }
 
 span.danke {
-  color:transparent;
+  color: transparent;
 }
 
-input:checked  + .danke{
-	color:red;
+input:checked+.danke {
+  /*color:red;*/
+  -webkit-animation-name: blinky;
+  -webkit-animation-duration: 10s;
+  color:red;
+}
+
+@keyframes blinky {
+  0% {
+    color: red;
+  }
+
+  10% {
+    color: transparent;
+  }
+
+  20% {
+    color: red;
+  }
+
+  30% {
+    color: transparent;
+  }
+
+  40% {
+    color: red;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  60% {
+    color: transparent;
+  }
+
+  70% {
+    color: red;
+  }
+
+  80% {
+    color: transparent;
+  }
+
+  90% {
+    color: red;
+  }
+
+  100% {
+    color: red;
+  }
 }
 
 /* Karte */
@@ -36,7 +85,7 @@ input:checked  + .danke{
 	border-color: black;	
   border-style: solid;
   border-width: thin;*/
-} 
+}
 
 .map-container-google-1 {
   overflow: hidden;
@@ -119,6 +168,7 @@ input:checked  + .danke{
 
 .box16:hover {
   /*opacity: 0.5;*/
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
 }
