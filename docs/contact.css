@@ -12,8 +12,6 @@
   padding: 10px;
 }
 
-
-
 .checkbox {
   text-align: left;
 }
@@ -23,7 +21,6 @@ span.danke {
 }
 
 input:checked+.danke {
-  /*color:red;*/
   -webkit-animation-name: blinky;
   -webkit-animation-duration: 10s;
   color:red;
@@ -76,34 +73,16 @@ input:checked+.danke {
 }
 
 /* Karte */
-
-
-.map {
-  /*
-	background: green;
-	
-	border-color: black;	
-  border-style: solid;
-  border-width: thin;*/
-}
-
 .map-container-google-1 {
   overflow: hidden;
-  /*padding-bottom: 56.25%;*/
   padding: 10px;
   position: relative;
   height: 0;
-
-
 }
 
 .map-container-google-1 iframe {
   left: 0;
   top: 0;
-  /*
-  height: 90%;
-  width: 90%; 
-  */
   position: absolute;
 }
 
@@ -111,20 +90,15 @@ input:checked+.danke {
 
 /* box16 Team */
 .TeamPic {
-
   border-radius: 100px;
   border-style: solid;
   border-width: thin;
-
 }
 
 .box16 {
   position: relative;
   display: inline-block;
-
-
   cursor: pointer;
-
 }
 
 .box16 .tooltiptext {
