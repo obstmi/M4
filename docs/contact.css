@@ -10,6 +10,7 @@
   border-style: solid;
   border-width: thin;
   padding: 10px;
+  margin: 10px;
 }
 
 .checkbox {
@@ -70,6 +71,10 @@ input:checked+.danke {
   100% {
     color: red;
   }
+}
+
+.map{
+  margin: 10px;
 }
 
 /* Karte */
