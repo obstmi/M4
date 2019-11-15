@@ -20,7 +20,7 @@
   float: right;
 }
 
-.row > div {
+.article-row > div {
   display: flex;
   align-items: stretch;
 }
